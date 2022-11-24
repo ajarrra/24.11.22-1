@@ -1,3 +1,36 @@
-*{
+* {
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: orange;
+    padding: 15px 15px;
+    border-radius: 10px;
+    display: block;
+}
+
+.navbar a:hover{
+    color: white;
+    background-color: orange;
+}
+
+.container{
+    max-width: 987px;
+    margin: 0 auto;
+}
+.navbar{
+    padding: 15px 0;
 }
