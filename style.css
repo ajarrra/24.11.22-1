@@ -32,13 +32,16 @@ body {
 .container{
     max-width: 987px;
     margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+
 }
 .navbar{
     padding: 15px 0;
-    box-shadow: 0 0 25px orange;
+    
 }
 
-h1{
- justify-content: flex-start;
+.container h1{
  font-weight: 400;
+ 
 }
