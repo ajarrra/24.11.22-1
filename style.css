@@ -8,10 +8,11 @@ body {
 
 .navbar ul {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     list-style-type: none;
     padding: 0;
     margin: 0;
+   
 }
 
 .navbar a{
@@ -20,6 +21,7 @@ body {
     padding: 15px 15px;
     border-radius: 10px;
     display: block;
+
 }
 
 .navbar a:hover{
@@ -33,4 +35,5 @@ body {
 }
 .navbar{
     padding: 15px 0;
+    box-shadow: 0 0 25px orange;
 }
