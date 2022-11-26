@@ -80,6 +80,7 @@ body {
     margin: 5px;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 15px;
 }
 
 .container-here h1{
@@ -164,3 +165,61 @@ body {
     text-align: center;
     font-size: 20px;
 }
+
+
+
+.container-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-image: url(https://abrakadabra.fun/uploads/posts/2022-01/1643363356_2-abrakadabra-fun-p-zelenie-oboi-iz-pinterest-2.jpg);
+    padding: 20px;
+}
+
+.navbar-about ul{
+   list-style-type: none;
+   display: flex;
+ 
+}
+
+.navbar-about a{
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px 10px;
+    
+}
+
+.navbar-about a:hover{
+    background-color: green;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.navbar-about h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+
+.container-about input{
+    border-radius: 10px;
+   
+    padding: 20px;
+    color: aliceblue;
+    border: 1px rgb(211, 27, 27);
+   
+    box-shadow: 0 0 25px green;
+    margin-right: 15px;
+   }
+   
+   
+   .container-about ::placeholder{
+       color: green;
+      
+       font-size: 13px;
+   }
