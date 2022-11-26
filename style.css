@@ -223,3 +223,60 @@ body {
       
        font-size: 13px;
    }
+
+
+
+
+
+   .container-for{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+     border-top: 1px solid blueviolet;
+     border-bottom: 1px solid blueviolet;
+    
+   }
+
+   .navbar-for ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+   }
+
+   .navbar-for a{
+    margin: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 15px;
+    box-shadow: 0 0 5px ;
+    border-radius: 5px;
+   }
+
+
+   .navbar-for a:hover{
+    color: white;
+    background-color: rgb(67, 11, 120);
+    padding: 15px 15px;
+    border-radius: 5px;
+   }
+
+   .navbar-for h1{
+    color: rgb(67, 11, 120) ;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 15px;
+   }
+
+
+   .container-for input{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+   }
+
+   .container-for ::placeholder{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(67, 11, 120) ;
+   }
